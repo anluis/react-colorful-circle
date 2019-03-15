@@ -12,7 +12,7 @@ also you can pass progress as prop to define the fill part.
 
 ```javascript
 import Circle from 'react-colorful-circle'
-;<Circle progress={35} />
+<Circle progress={35} />
 ```
 
 **Custom**
@@ -21,7 +21,7 @@ Optionally, you can pass the following props and customize it as your will
 
 ```javascript
 import Circle from 'react-colorful-circle'
-;<Circle
+<Circle
   startColor={'#535FE9'} //String: Color of gradient where start
   middleColor={'#000000'} //String: Color of gradient in middle, you can ignore it
   endColor={'#9D4EC5'} //String: Color of gradient where end
