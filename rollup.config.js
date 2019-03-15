@@ -14,10 +14,14 @@ export default {
   },
   output: {
     dir: dstDir,
-    format: 'cjs',
+    format: 'es',
     name: 'Xrm.Test'
   },
   plugins: [
+    resolve({
+      jsnext: true,
+      extensions
+    }),
     commonjs({
       include: 'node_modules/**',
       namedExports: {
@@ -30,12 +34,10 @@ export default {
         ]
       }
     }),
-    resolve({
-      jsnext: true,
-      extensions
-    }),
     babel({
-      extensions
+      extensions,
+      include: ['src/**/*'],
+      exclude: 'node_modules/**'
     })
   ]
 }
