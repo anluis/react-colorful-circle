@@ -1,0 +1,10 @@
+{
+  "name": "react-colorful-circle",
+  "version": "0.0.1",
+  "description": "A react component to make colorful circles",
+  "main": "index.js",
+  "repository": "https://github.com/Anluis/react-colorful-circle",
+  "author": "Anluis",
+  "license": "MIT",
+  "private": false
+}
