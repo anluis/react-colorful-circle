@@ -1,10 +1,24 @@
 {
   "name": "react-colorful-circle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react component to make colorful circles",
-  "main": "index.js",
-  "repository": "https://github.com/Anluis/react-colorful-circle",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anluis/react-colorful-circle"
+  },
   "author": "Anluis",
   "license": "MIT",
-  "private": false
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/react": "^16.8.8",
+    "react": "^16.8.4",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.1",
+    "rollup-plugin-node-resolve": "^4.0.1"
+  }
 }
