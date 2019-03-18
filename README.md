@@ -7,7 +7,8 @@ $ yarn add react-colorful-circle
 # Usage
 
 you can use this component to draw colorful circles like CSS gradients,
-also you can pass progress as prop to define the fill part.
+also you can pass progress as prop to define the fill part
+
 **Basic**
 
 ```javascript
