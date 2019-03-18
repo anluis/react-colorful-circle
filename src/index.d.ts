@@ -1,6 +1,7 @@
 import * as React from 'react'
+import { Component, CSSProperties } from 'react'
 declare class Circle extends React.Component<CircleProps, any>{ }
-interface CircleProps {
+export interface CircleProps extends React.Props<Circle> {
   progress: number
   showPercentage?: boolean
   showPercentageSymbol?: boolean
@@ -18,3 +19,5 @@ interface CircleProps {
   responsive?: boolean
   id?: string
 }
+declare module 'react-colorful-circle'
+export default Circle

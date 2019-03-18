@@ -24,7 +24,7 @@ const radius = 175
 const diameter = Math.round(Math.PI * radius * 2)
 const getOffset = (val = 0) => Math.round(((100 - val) / 100) * diameter)
 
-class Circle extends Component<CircleProps, {}> {
+class Circle extends Component<CircleProps, any> {
   static defaultProps: CircleProps = {
     progress: 0,
     showPercentage: true,

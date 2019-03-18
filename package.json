@@ -1,6 +1,6 @@
 {
   "name": "react-colorful-circle",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "description": "A react component to make colorful circles",
   "keywords": [
     "react",
@@ -9,8 +9,8 @@
     "Gradients",
     "linear gradients"
   ],
-  "main": "dist/index.js",
-  "typings": "./src/types/index.d.ts",
+  "main": "./lib/index.js",
+  "typings": "./src/index.d.ts",
   "scripts": {
     "build": "rollup -c"
   },
